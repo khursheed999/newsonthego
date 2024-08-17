@@ -1,0 +1,160 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  position: relative;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar{
+  overflow-x: auto;
+}
+
+.navbar-toggler-icon{
+color: blue;
+}
+.nav-link{
+  color: white;
+  cursor: pointer;
+}
+.nav-link:hover{
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+
+.active-link{
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  width: 147px;
+  text-align: center;
+  outline: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 10px 10px 20px rgba(0, 0,0, 0.6);
+}
+.news-board{
+  padding: 10px 0px;
+  margin-bottom: 250px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  /* display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0,0, 0.3); */
+  width: 360px;
+  
+}
+.card-img-top{
+width: 358px;
+height: 200px;
+object-fit: cover;
+}
+.drop-down-menu{
+  padding: 12px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  outline: none;
+  border: none;
+}
+.drop-down-menu option{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+option:hover{
+  background-color: white;
+  color: blue;
+}
+@media screen and (max-width:700px){
+  .card{
+    width: 95vw;
+    /* display: flex;
+    flex-direction: column;
+  
+    box-shadow: 0 2px 8px rgba(0, 0,0, 0.3);
+    width: 360px; */
+  
+
+  }
+  .card-img-top{
+    width: 94.5vw;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+}
+body{
+  position: relative;
+  background-color: #ccc;
+}
+.footer{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  padding: 10px 20px;
+  position: fixed;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  height: 250px;
+}
+.footer-contact{
+  padding: 10px ;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+.footer-contact a{
+  text-decoration: none;
+  color: darkblue;
+}
+.footer-contact a:visited{
+  color: darkblue;
+}
+.footer-contact a:hover{
+  color: blueviolet;
+  scale: 1.1;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: wheat;
+  transition: 0.3s ease-in-out;
+  animation-duration: 5;
+  width: 300px;
+}
+.footer-bottom{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3px;
+  font-style: italic;
+}
+.button{
+  outline: none;
+  border: none;
+  background-color: white;
+  box-shadow:10px 10px 20px rgba(0, 0,0, 0.6);
+  border-radius: 5px;
+}
+.spinner-border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
